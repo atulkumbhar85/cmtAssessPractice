@@ -15,7 +15,7 @@ public class CmtAssessPracticeApplication {
 	}
 	@GetMapping("/")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return String.format("<h1>Hello %s!</h1> <h2>This is sample header</h2>", name);
+		return String.format("<h1>Hello %s!</h1> <h2>This is sample header</h2></br><h2>Output after first change</h2>", name);
 	}
 
 }
